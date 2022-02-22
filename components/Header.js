@@ -14,6 +14,7 @@ function Header() {
             {/* Search */}
             <div className={styles.frameSearch}>
                 <input type="text" className={styles.search} placeholder="Search Item" />
+                <SearchIcon className={styles.Icon}/>
             </div>
 
             {/* Right */}

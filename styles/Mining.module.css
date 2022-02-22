@@ -1,0 +1,194 @@
+.picture {
+   position: absolute;
+   width: 631px;
+   height: 328px;
+   left: 100px;
+   top: 848px;
+   }
+   
+   .pictureTwo {
+       position: absolute;
+       width: 631px;
+       height: 328px;
+       left: 100px;
+       top:328px;
+   }
+   
+   .text {
+   font-family: Nunito;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 12px;
+   line-height: 18px;
+   
+   color: #404040;
+   }
+   
+   .img {
+   position: absolute;
+   width: 631px;
+   height: 302px;
+   left: 10px;
+   top: 50px;
+   
+   border: 1px dashed #404040;
+   box-sizing: border-box;
+   border-radius: 10px;
+   }
+   .imgOne {
+   left: 100px;
+   }
+
+.inputOneS {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   padding: 0px;
+   
+   position: absolute;
+   width: 631px;
+   height: 82px;
+   left: 781px;
+   top: 323px;
+   }
+
+   .inputTitleS {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 16px;
+      
+      position: static;
+      width: 631px;
+      height: 56px;
+      left: 0px;
+      top: 20px;
+      
+      
+      background: #FFFFFF;
+      
+      border: 2px solid #F4BA00;
+      border-radius: 8px;
+      
+      
+      flex: none;
+      order: 1;
+      align-self: stretch;
+      flex-grow: 0;
+      margin: 55px 0px;
+      }
+      .p1 {
+         font-family: Nunito;
+         font-style: normal;
+         font-weight: bold;
+         font-size: 12px;
+         line-height: 18px;
+         
+         color: #404040;
+         margin-top: 30px;
+         
+         position: absolute;
+         }
+
+         .inputTwoS {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 0px;
+            
+            position: absolute;
+            width: 631px;
+            height: 82px;
+            left: 781px;
+            top: 475px;
+            }
+
+      .inputURLS {
+         display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     padding: 16px;
+     
+     position: static;
+     width: 631px;
+     height: 56px;
+     left: 0px;
+     top: 26px;
+     
+     /* W Background */
+     
+     background: #FFFFFF;
+     border: 2px solid #F4BA00;
+     border-radius: 8px;
+     
+     /* Inside auto layout */
+     
+     flex: none;
+     order: 1;
+     align-self: stretch;
+     flex-grow: 0;
+     margin: 8px 0px;
+      }
+      .p2 {
+         font-family: Nunito;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 12px;
+     line-height: 18px;
+     /* identical to box height, or 150% */
+     
+     
+     color: #404040;
+     }
+
+     .inputThreeS {
+      display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  
+  position: absolute;
+  width: 631px;
+  height: 82px;
+  left: 781px;
+  top: 600px;
+  }
+
+  .inputCategoryS {
+   display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 16px;
+
+position: static;
+width: 631px;
+height: 56px;
+left: 0px;
+top: 26px;
+
+/* W Background */
+
+background: #FFFFFF;
+border: 2px solid #F4BA00;
+border-radius: 8px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 8px 0px;
+}
+
+.p3 {
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height, or 150% */
+
+
+color: #404040;
+}
