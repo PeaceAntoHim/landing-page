@@ -1,0 +1,41 @@
+.Banner {
+position: absolute;
+width: 1312px;
+height: 500px;
+left: 100px;
+top: 298px;
+}
+
+.frameBanner {
+position: absolute;
+width: 1312px;
+height: 375px;
+left: 20px;
+top: 50px;
+
+background: #F4F4F4;
+box-sizing: border-box;
+border-radius: 10px;
+}
+
+.pictureBanner {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    left: 564px;
+    top: 320px;
+    background: gray;
+    border-color: yellow;
+
+
+border-radius: 244px;
+}
+
+.circleBanner {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    left: 45px;
+    top: 50px;
+    border-radius: 90px;
+}

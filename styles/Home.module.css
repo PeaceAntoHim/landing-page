@@ -1,0 +1,231 @@
+.container {
+  padding: 0 2rem;
+}
+
+.main {
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.navFrame {
+position: absolute;
+width: 1612px;
+height: 80px;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.Logo {
+position: absolute;
+width: 200px;
+left: 50px;
+top: 28px;
+}
+
+.frameSearch {
+  position: absolute;
+  width: 390px;
+  height: 40px;
+  left: 561px;
+  top: 31px;
+  
+  background: #FFFFFF;
+  border-radius: 16px;
+  filter: drop-shadow(0px 0px 1px rgba(0, 0, 0, 0.04)) drop-shadow(0px 2px 6px rgba(0, 0, 0, 0.04)) drop-shadow(0px 10px 24px rgba(0, 0, 0, 0.06));
+}
+
+.search {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  border-radius: 16px;
+  text-decoration: none;
+  border-style: none;
+  
+
+  position: absolute;
+  width: 380.27px;
+  height: 38px;
+  left: 2px;
+  top: 2px;
+}
+
+.right {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 480px;
+height: 56px;
+left: 982px;
+top: 32px;
+}
+
+.groupOne {
+position: static;
+width: 89px;
+height: 24px;
+left: 0px;
+top: 16px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 30px;
+}
+
+.groupTwo {
+position: static;
+width: 73px;
+height: 24px;
+left: 119px;
+top: 16px;
+
+font-family: Nunito;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+
+text-align: center;
+
+color: #404040;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 30px;
+}
+
+.groupThree {
+position: static;
+width: 56px;
+height: 56px;
+left: 222px;
+top: 10px;
+}
+
+.thumbnail {
+flex: none;
+order: 2;
+flex-grow: 0;
+margin-top: -10px;
+margin-left: -10px;
+}
+
+.buttonNav {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 16px;
+
+position: static;
+width: 172px;
+height: 56px;
+left: 308px;
+top: 0px;
+border-style: none;
+
+background: #F4BA00;
+border-radius: 8px;
+
+
+flex: none;
+order: 3;
+flex-grow: 0;
+margin-top: -20px;
+}
+
+.text {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+padding: 0px;
+color: white;
+
+position: static;
+width: 140px;
+height: 24px;
+left: 16px;
+top: 16px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 7px 30px;
+}
+
+.judul {
+position: absolute;
+width: 326px;
+height: 49px;
+left: 100px;
+top: 170px;
+
+font-family: Nunito;
+font-style: normal;
+font-weight: 800;
+font-size: 36px;
+line-height: 49px;
+text-align: center;
+
+color: #0D243C;
+}
+
+.subJudul {
+position: absolute;
+width: 776px;
+height: 24px;
+left: 132px;
+top: 259px;
+
+font-family: Nunito;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+
+color: #404040;
+}
