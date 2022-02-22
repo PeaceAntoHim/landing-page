@@ -1,11 +1,23 @@
+import { useRef } from 'react';
 import styles from '../styles/Section.module.css';
 
 function Banner() {
+    const inputRef = useRef(null);
+
     return (
         <div className={styles.Banner}>
-            <img src="dsds" alt="" className={styles.frameBanner} />
+            <input 
+                type="file" 
+                className={styles.frameBanner}
+            />
             <div className={styles.pictureBanner}>
-                <img src="sds" alt="" className={styles.circleBanner} />
+                <input
+                    ref={inputRef} 
+                    type="file" 
+                    className={styles.circleBanner}
+                    hidden
+                />
+                <img src="/Vector.svg" className={styles.circleBanner1} />
             </div>
         </div>        
     )

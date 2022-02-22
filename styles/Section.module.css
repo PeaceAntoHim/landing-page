@@ -12,6 +12,8 @@ width: 1312px;
 height: 375px;
 left: 20px;
 top: 50px;
+cursor: pointer;
+
 
 background: #F4F4F4;
 box-sizing: border-box;
@@ -24,18 +26,23 @@ border-radius: 10px;
     height: 180px;
     left: 564px;
     top: 320px;
-    background: gray;
-    border-color: yellow;
-
-
-border-radius: 244px;
+    background: #F4F4F4;
+    border-radius: 244px;
+    border: 1px solid #F4BA00;
+    cursor: pointer;
 }
 
 .circleBanner {
     position: absolute;
-    width: 90px;
-    height: 90px;
+    width: 200px;
+    height: 200px;
     left: 45px;
-    top: 50px;
-    border-radius: 90px;
+    top: 80px;
+}
+
+.circleBanner1 {
+    position: absolute;
+    width: 80px;
+    left: 55px;
+    top: 45px;
 }

@@ -4,6 +4,7 @@ width: 631px;
 height: 328px;
 left: 100px;
 top: 848px;
+cursor: pointer;
 }
 
 .pictureTwo {
@@ -20,7 +21,7 @@ font-style: normal;
 font-weight: bold;
 font-size: 12px;
 line-height: 18px;
-
+margin-left: 12px;
 color: #404040;
 }
 
@@ -35,8 +36,11 @@ border: 1px dashed #404040;
 box-sizing: border-box;
 border-radius: 10px;
 }
-.imgOne {
-left: 100px;
+.imgOne {    
+position: absolute;
+left: 255px;
+top: 70px;
+width: 125px;
 }
 
 .inputOne {
@@ -53,6 +57,46 @@ top: 848px;
 
 }
 
+.important1 {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 100px;
+    top: 13px;
+    }
+
+.important2 {
+    position: absolute;
+width: 16px;
+height: 16px;
+left: 30px;
+top: 30px;
+}
+
+.important3 {
+    position: absolute;
+width: 16px;
+height: 16px;
+left: 33px;
+top: 4px;
+
+}
+
+.important4 {
+position: absolute;
+width: 16px;
+height: 16px;
+left:52px;
+top: 2px;
+}
+
+.important5 {
+position: absolute;
+width: 16px;
+height: 16px;
+left: 98px;
+top: 252px;
+}
 
 .inputTitle {
 display: flex;
@@ -65,9 +109,17 @@ width: 631px;
 height: 56px;
 left: 0px;
 top: 20px;
+
+background: #FFFFFF;      
+border: 2px solid #F4BA00;
+border-radius: 8px;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 55px 0px;
 }
-
-
 
 .p1 {
 font-family: Nunito;
@@ -95,16 +147,40 @@ left: 781px;
 top: 971px;
 }
 
+.inputURL {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 16px;
+
+position: static;
+width: 631px;
+height: 56px;
+left: 0px;
+top: 26px;
+
+/* W Background */
+
+background: #FFFFFF;
+border: 2px solid #F4BA00;
+border-radius: 8px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 8px 0px;
+}d
+
 .p2 {
     font-family: Nunito;
-font-style: normal;
-font-weight: bold;
-font-size: 12px;
-line-height: 18px;
-/* identical to box height, or 150% */
-
-
-color: #404040;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    color: #404040;
 }
 
 .inputThree {
@@ -118,6 +194,42 @@ width: 631px;
 height: 82px;
 left: 781px;
 top: 1094px;
+}
+
+.inputCategory {
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 16px;
+
+position: static;
+width: 631px;
+height: 56px;
+left: 0px;
+top: 26px;
+
+/* W Background */
+
+background: #FFFFFF;
+border: 2px solid #F4BA00;
+border-radius: 8px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 8px 0px;
+}
+
+.p3 {
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 18px;
+color: #404040;
 }
 
 .textarea {
@@ -226,6 +338,15 @@ flex-grow: 0;
 margin: 8px 0px;
 }
 
+.Icon {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 10px;
+    top: 15px;
+    z-index: 999;
+}
+
 .links {
     display: flex;
 flex-direction: column;
@@ -234,12 +355,35 @@ padding: 0px;
 
 position: absolute;
 width: 1312px;
-height: 82px;
+height: 56px;
 left: 100px;
-top: 1578px;
+top: 1595px;
+
+background: #FFFFFF;
+border: 1px solid #CCCCCC;
+border-bottom: none;
+border-radius: 8px 8px 0px 0px;
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 8px 0px;
+
 }
 
 .labelLinks {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    position: absolute;
+    width: 1312px;
+    height: 82px;
+    left: 100px;
+    top: 1568px;
+    margin-top: 15px;
+    
     font-family: Nunito;
 font-style: normal;
 font-weight: bold;
@@ -255,18 +399,17 @@ color: #404040;
     display: flex;
 flex-direction: column;
 align-items: flex-start;
-padding: 16px;
 
 position: static;
-width: 1312px;
+width: 1242px;
 height: 56px;
 left: 0px;
-top: 26px;
+top: 100px;
 
 /* W Background */
 
 background: #FFFFFF;
-border: 1px solid #CCCCCC;
+border: 0px solid #CCCCCC;
 border-radius: 8px 8px 0px 0px;
 
 /* Inside auto layout */
@@ -275,7 +418,11 @@ flex: none;
 order: 1;
 align-self: stretch;
 flex-grow: 0;
-margin: 8px 0px;
+margin-left: 64px;
+}
+
+.inputLinks:focus {
+    outline: none;
 }
 
 .discord {
@@ -286,24 +433,10 @@ padding: 0px;
 
 position: absolute;
 width: 1312px;
-height: 56px;
+height: 58px;
 left: 100px;
-top: 1660px;
-}
+top: 1659px;
 
-.inputDiscord {
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 16px;
-
-position: static;
-width: 1312px;
-height: 56px;
-left: 0px;
-top: 0px;
-
-/* W Background */
 
 background: #FFFFFF;
 border: 1px solid #CCCCCC;
@@ -315,6 +448,36 @@ order: 1;
 align-self: stretch;
 flex-grow: 0;
 margin-left: 1px;
+}
+
+.inputDiscord {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 16px;
+
+position: static;
+width: 1262px;
+height: 56px;
+left: 0px;
+top: 100px;
+
+/* W Background */
+
+background: #FFFFFF;
+border: 0px solid #CCCCCC;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin-left: 48px;
+}
+
+.inputDiscord:focus {
+    outline: none;
 }
 
 .twitter {
@@ -327,25 +490,10 @@ margin-left: 1px;
     width: 1312px;
     height: 56px;
     left: 100px;
-    top: 1716px;     
-}
-
-.inputTwitter {
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 16px;
-
-position: static;
-width: 1312px;
-height: 56px;
-left: 0px;
-top: 0px;
-
-/* W Background */
-
-background: #FFFFFF;
-border: 1px solid #CCCCCC;
+    top: 1716px;
+    border-bottom: none;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
 
 /* Inside auto layout */
 
@@ -354,6 +502,37 @@ order: 1;
 align-self: stretch;
 flex-grow: 0;
 margin-left: 1px;
+}
+
+
+.inputTwitter {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 16px;
+
+position: static;
+width: 1262px;
+height: 56px;
+left: 0px;
+top: 0px;
+
+/* W Background */
+
+background: #FFFFFF;
+border: 0px solid #CCCCCC;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin-left: 48px;
+}
+
+.inputTwitter:focus {
+    outline: none;
 }
 
 .instagram {
@@ -368,24 +547,9 @@ height: 56px;
 left: 100px;
 top: 1772px;
 
-}
-
-.inputInstagram {
-    display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 16px;
-
-position: static;
-width: 1312px;
-height: 56px;
-left: 0px;
-top: 0px;
-
-/* W Background */
-
 background: #FFFFFF;
 border: 1px solid #CCCCCC;
+border-bottom: none;
 
 /* Inside auto layout */
 
@@ -394,6 +558,38 @@ order: 1;
 align-self: stretch;
 flex-grow: 0;
 margin-left: 1px;
+
+}
+
+
+.inputInstagram {
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 16px;
+
+position: static;
+width: 1262px;
+height: 56px;
+left: 0px;
+top: 0px;
+
+/* W Background */
+
+background: #FFFFFF;
+border: 0px solid #CCCCCC;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin-left: 48px;
+}
+
+.inputInstagram:focus {
+    outline: none;
 }
 
 .telegram {
@@ -404,9 +600,21 @@ padding: 0px;
 
 position: absolute;
 width: 1312px;
-height: 56px;
+height: 58px;
 left: 100px;
 top: 1828px;
+
+background: #FFFFFF;
+border: 1px solid #CCCCCC;
+border-radius: 0px 0px 8px 8px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin-left: 1px;
 }
 
 .inputTelegram {
@@ -416,7 +624,7 @@ top: 1828px;
     padding: 16px;
     
     position: static;
-    width: 1312px;
+    width: 1262px;
     height: 56px;
     left: 0px;
     top: 0px;
@@ -424,7 +632,7 @@ top: 1828px;
     /* W Background */
     
     background: #FFFFFF;
-    border: 1px solid #CCCCCC;
+    border: 0px solid #CCCCCC;
     border-radius: 0px 0px 8px 8px;
     
     /* Inside auto layout */
@@ -433,7 +641,10 @@ top: 1828px;
     order: 1;
     align-self: stretch;
     flex-grow: 0;
-    margin-left: 1px;
+    margin-left: 48px;
+}
+.inputTelegram:focus {
+    outline: none;
 }
 
 .pLog {
@@ -525,13 +736,21 @@ width: 172px;
 height: 56px;
 left: 1240px;
 top: 2055px;
-
+cursor: pointer;
 
 /* Primary/100% */
 
 background: #F4BA00;
 border-radius: 8px;
 border-style: none;
+}
+
+.togle {
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 147px;
+    top: 1938px;
 }
 
 .pBtn {

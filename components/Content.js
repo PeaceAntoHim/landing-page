@@ -6,6 +6,7 @@ function Content() {
         <>
             <SectionOne />
             <div className={styles.textarea}>
+                <img src="/Vector3.svg" alt="important" className={styles.important5} />
                 <p className={styles.pTxtarea}>Description</p>
                 <textarea className={styles.inputTextarea} placeholder="Enter your text"/>
             </div>
@@ -15,29 +16,34 @@ function Content() {
                 <textarea className={styles.inputShort} placeholder="Enter your text"/>
             </div>
 
+            <label className={styles.labelLinks}>Links</label>
             <div className={styles.links}>
-                <label className={styles.labelLinks}>Links</label>
+                <img src="/internet.svg" alt="intenet" className={styles.Icon} />
                 <input type="text" className={styles.inputLinks} placeholder="input your links"/>
             </div>
 
             <div className={styles.discord}>
+                <img src="/discord.svg" alt="discord" className={styles.Icon}/>
                 <input type="text" className={styles.inputDiscord} placeholder="input your discord" />
             </div>
 
             <div className={styles.twitter}>
+                <img src="/twitter.svg" alt="twitter" className={styles.Icon}/>
                 <input type="text" className={styles.inputTwitter} placeholder="input your tiwtter" />    
             </div>
 
             <div className={styles.instagram}>
+                <img src="/ig.svg" alt="ig" className={styles.Icon} />
                 <input type="text" className={styles.inputInstagram} placeholder="input your instagram" />
             </div>
 
             <div className={styles.telegram}>
+                <img src="/tele.svg" alt="tele" className={styles.Icon}/>
                 <input type="text" className={styles.inputTelegram} placeholder="input your telegram"/>
             </div>
 
             <p className={styles.pLog}>NSFW</p>
-            {/* togle */}
+            <img src="/Vector2.svg" className={styles.togle} alt="toggle" />
             <p className={styles.faQ}>Expicit content ?</p>
 
             <div className={styles.notice}>

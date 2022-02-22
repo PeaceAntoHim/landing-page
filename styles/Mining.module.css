@@ -12,6 +12,7 @@
        height: 328px;
        left: 100px;
        top:328px;
+       cursor: pointer
    }
    
    .text {
@@ -36,7 +37,10 @@
    border-radius: 10px;
    }
    .imgOne {
-   left: 100px;
+      position: absolute;
+      left: 255px;
+      top: 70px;
+      width: 125px;
    }
 
 .inputOneS {
