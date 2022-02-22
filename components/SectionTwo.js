@@ -1,3 +1,4 @@
+import Footer from '../components/Footer';
 import styles from '../styles/Mining.module.css';
 
 function SectionTwo() {
@@ -29,11 +30,35 @@ function SectionTwo() {
                 </select>
             </div>
 
-            <div >
-
+            <div className={styles.License}>
+                <label className={styles.p4}>License</label>
+                <select className={styles.inputLicense}>
+                    <option>-- Style Licence --</option>
+                    <option>Chinese Traditional</option>
+                    <option>Chinese Simplified</option>
+                </select>
             </div>
-      </>
-   )
+
+            <div className={styles.category}>
+                <label className={styles.p5}>Category</label>
+                <select className={styles.inputCategory}>
+                    <option>-- Choose Category --</option>
+                    <option>Chinese Traditional</option>
+                    <option>Chinese Simplified</option>
+                </select>
+            </div>
+
+            <div className={styles.Styles}>
+                <label className={styles.p6}>Styles</label>
+                <select className={styles.inputStyles}>
+                    <option>-- Choose Styles --</option>
+                    <option>Chinese Traditional</option>
+                    <option>Chinese Simplified</option>
+                </select>
+            </div>
+            <Footer />
+        </>
+    )
 }
 
 export default SectionTwo;
