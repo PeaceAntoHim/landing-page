@@ -27,6 +27,9 @@ border: 1px dashed #404040;
 box-sizing: border-box;
 border-radius: 10px;
 }
+.imgOne {
+left: 100px;
+}
 
 .inputOne {
 display: flex;
@@ -342,4 +345,270 @@ order: 1;
 align-self: stretch;
 flex-grow: 0;
 margin: 8px 0px;
+}
+
+.discord {
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 1312px;
+height: 56px;
+left: 100px;
+top: 1660px;
+}
+
+.inputDiscord {
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 16px;
+
+position: static;
+width: 1312px;
+height: 56px;
+left: 0px;
+top: 0px;
+
+/* W Background */
+
+background: #FFFFFF;
+border: 1px solid #CCCCCC;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin-top: 1596px;
+margin-right: 390px; 
+}
+
+.twitter {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    position: absolute;
+    width: 1312px;
+    height: 56px;
+    left: 100px;
+    top: 1716px;     
+}
+
+.inputTwitter {
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 16px;
+
+position: static;
+width: 1312px;
+height: 56px;
+left: 0px;
+top: 0px;
+
+/* W Background */
+
+background: #FFFFFF;
+border: 1px solid #CCCCCC;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin-left: 1px;
+}
+
+.instagram {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 1312px;
+height: 56px;
+left: 100px;
+top: 1772px;
+
+}
+
+.inputInstagram {
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 16px;
+
+position: static;
+width: 1312px;
+height: 56px;
+left: 0px;
+top: 0px;
+
+/* W Background */
+
+background: #FFFFFF;
+border: 1px solid #CCCCCC;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin-left: 1px;
+}
+
+.telegram {
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 1312px;
+height: 56px;
+left: 100px;
+top: 1828px;
+}
+
+.inputTelegram {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+    
+    position: static;
+    width: 1312px;
+    height: 56px;
+    left: 0px;
+    top: 0px;
+    
+    /* W Background */
+    
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 0px 0px 8px 8px;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-left: 1px;
+}
+
+.pLog {
+    position: absolute;
+width: 37px;
+height: 18px;
+left: 100px;
+top: 1934px;
+
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height, or 150% */
+
+
+color: #404040;
+}
+
+.faQ {
+    position: absolute;
+width: 567px;
+height: 24px;
+left: 100px;
+top: 1963px;
+
+font-family: Nunito;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 24px;
+/* identical to box height, or 240% */
+
+
+color: #404040;
+}
+
+.note {
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 129% */
+
+
+color: #404040;
+
+}
+
+.notice {
+position: absolute;
+width: 938px;
+height: 61px;
+left: 100px;
+top: 2028px;
+}
+
+.box {
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 10px 15px;
+
+width: 950px;
+background: #FFF3CC;
+
+border: 1px solid #F4BA00;
+box-sizing: border-box;
+border-radius: 8px;
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 18px;
+
+color: #404040;
+}
+
+.btn {
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 16px;
+
+position: absolute;
+width: 172px;
+height: 56px;
+left: 1240px;
+top: 2055px;
+
+
+/* Primary/100% */
+
+background: #F4BA00;
+border-radius: 8px;
+border-style: none;
+}
+
+.pBtn {
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 7px 0px;
+    color: white;
 }

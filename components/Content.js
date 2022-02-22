@@ -5,7 +5,9 @@ function Content() {
         <>
             <div className={styles.picture}>
                 <p className={styles.text}>Featured Image</p>
-                <img src="" alt="" className={styles.img} />
+                <div className={styles.img} >
+                    <img src="/vector.svg" alt="" className={styles.imgOne}/>
+                </div>
             </div>
             
             <div className={styles.inputOne}>
@@ -41,6 +43,34 @@ function Content() {
                 <label className={styles.labelLinks}>Links</label>
                 <input type="text" className={styles.inputLinks} placeholder="input your links"/>
             </div>
+
+            <div className={styles.discrod}>
+                <input type="text" className={styles.inputDiscord} placeholder="input your discord" />
+            </div>
+
+            <div className={styles.twitter}>
+                <input type="text" className={styles.inputTwitter} placeholder="input your tiwtter" />    
+            </div>
+
+            <div className={styles.instagram}>
+                <input type="text" className={styles.inputInstagram} placeholder="input your instagram" />
+            </div>
+
+            <div className={styles.telegram}>
+                <input type="text" className={styles.inputTelegram} placeholder="input your telegram"/>
+            </div>
+
+            <p className={styles.pLog}>NSFW</p>
+            {/* togle */}
+            <p className={styles.faQ}>Expicit content ?</p>
+
+            <div className={styles.notice}>
+                <p className={styles.note}>Note</p>
+                <p className={styles.box}>Make sure that all information is correct and double-check all spelling before you mint your NFT because once the process is complete you CANNOT edit your NFT.</p>
+            </div>
+
+            <button className={styles.btn}><p className={styles.pBtn}>Create</p></button>
+            
         </>
         
         
