@@ -6,6 +6,7 @@ function SectionTwo() {
           <div className={styles.pictureTwo}>
                 <p className={styles.text}>Upload Static Preview</p>
                 <div className={styles.img} >
+                    <input type="file" className={styles.input1} />
                     <img src="/vector.svg" alt="" className={styles.imgOne}/>
                 </div>
             </div>
@@ -13,6 +14,10 @@ function SectionTwo() {
             <div className={styles.pictureThree}>
                 <p className={styles.text3}>Upload Static Preview</p>
                 <div className={styles.img3}>
+                <input 
+                    type="file"
+                    className={styles.input2}
+                />
                     <img src="/vector.svg" alt="img" className={styles.imgThree}/>
                 </div>
             </div>

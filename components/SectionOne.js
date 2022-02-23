@@ -6,6 +6,7 @@ function SectionOne() {
           <div className={styles.picture}>
                 <p className={styles.text}>Featured Image</p>
                 <div className={styles.img} >
+                    <input type="file" />
                     <img src="/vector.svg" alt="" className={styles.imgOne}/>
                 </div>
             </div>

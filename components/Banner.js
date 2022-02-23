@@ -15,7 +15,6 @@ function Banner() {
                     ref={inputRef} 
                     type="file" 
                     className={styles.circleBanner}
-                    hidden
                 />
                 <img src="/Vector.svg" className={styles.circleBanner1} />
             </div>

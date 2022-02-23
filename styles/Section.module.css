@@ -17,6 +17,7 @@ cursor: pointer;
 
 
 background: #F4F4F4;
+border: 1px dashed #404040;
 box-sizing: border-box;
 border-radius: 10px;
 }
@@ -35,10 +36,10 @@ border-radius: 10px;
 
 .circleBanner {
     position: absolute;
-    width: 200px;
-    height: 200px;
+    width: 85px;
+    height: 85px;
     left: 45px;
-    top: 80px;
+    top: 120px;
 }
 
 .circleBanner1 {

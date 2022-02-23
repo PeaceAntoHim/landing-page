@@ -7,7 +7,7 @@ function Content() {
             <SectionOne />
             <div className={styles.textarea}>
                 <img src="/Vector3.svg" alt="important" className={styles.important5} />
-                <p className={styles.pTxtarea}>Description</p>
+                <p className={styles.pTextarea}>Description</p>
                 <textarea className={styles.inputTextarea} placeholder="Enter your text"/>
             </div>
 
