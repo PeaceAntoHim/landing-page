@@ -14,7 +14,7 @@ export default function Mining() {
 
          <Header />
          <main className={styles.main}>
-            <h1 className={styles.judul}>Create Item</h1>
+            <h1 className={styles.judul1}>Create Item</h1>
             <p className={styles.subJudul}>This images will appear on your collection</p>
             <SectionTwo />
          </main>

@@ -33,6 +33,7 @@
    left: 10px;
    top: 50px;
    
+   background: #F4F4F4;
    border: 1px dashed #404040;
    box-sizing: border-box;
    border-radius: 10px;
@@ -42,6 +43,170 @@
       left: 255px;
       top: 70px;
       width: 125px;
+   }
+
+   .pictureThree {
+position: absolute;
+width: 631px;
+height: 328px;
+left: 62px;
+top: 691px;
+   }
+
+   .text3 {
+      font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height, or 150% */
+
+
+color: #404040;
+   }
+
+   .description {
+      display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 631px;
+height: 197px;
+left: 740px;
+top: 703px;
+
+   }
+
+   .Royalities {
+      display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 631px;
+height: 82px;
+left: 737px;
+top: 950px;
+   }
+
+   .inputRoyalities {
+      display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 16px;
+
+position: static;
+width: 631px;
+height: 56px;
+left: 0px;
+top: 26px;
+
+/* W Background */
+
+background: #FFFFFF;
+border: 1px solid #CCCCCC;
+border-radius: 8px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 8px 0px;
+   }
+
+   .p8 {
+      font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height, or 150% */
+
+
+color: #404040;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 8px 0px;
+   }
+
+   .p7 {
+      font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height, or 150% */
+
+
+color: #404040;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 8px 0px;
+   }
+
+   .textareaDescription {
+      display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 16px;
+
+position: static;
+width: 631px;
+height: 171px;
+left: 0px;
+top: 26px;
+
+/* W Background */
+
+background: #FFFFFF;
+border: 1px solid #CCCCCC;
+border-radius: 8px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 8px 0px;
+   }
+
+   .img3 {
+      position: absolute;
+      width: 631px;
+      height: 302px;
+      left: -2px;
+      top: 55px;
+      
+      border: 1px dashed #404040;
+      box-sizing: border-box;
+      background: #F4F4F4;
+      border-radius: 10px;
+   }
+
+   .imgThree {
+      position: absolute;
+left: 255px;
+top: 75px;
+width: 125px;
+
    }
 
 .inputOneS {
@@ -208,7 +373,7 @@ position: absolute;
 width: 1312px;
 height: 82px;
 left: 60px;
-top: 757px;
+top: 1090px;
 }
 .p4 {
 font-family: Nunito;
@@ -261,7 +426,7 @@ position: absolute;
 width: 631px;
 height: 82px;
 left: 60px;
-top: 870px;
+top: 1210px;
 
 }
 
@@ -322,8 +487,8 @@ padding: 0px;
 position: absolute;
 width: 631px;
 height: 82px;
-left: 781px;
-top: 870px;
+left: 741px;
+top: 1210px;
 
 }
 
@@ -379,8 +544,8 @@ margin: 8px 0px;
    position: absolute;
 width: 37px;
 height: 18px;
-left: 100px;
-top: 1020px;
+left: 60px;
+top: 1320px;
 
 font-family: Nunito;
 font-style: normal;
@@ -397,8 +562,8 @@ color: #404040;
    position: absolute;
 width: 567px;
 height: 24px;
-left: 100px;
-top: 1070px;
+left: 60px;
+top: 1355px;
 
 font-family: Nunito;
 font-style: normal;
@@ -428,8 +593,8 @@ color: #404040;
 position: absolute;
 width: 938px;
 height: 61px;
-left: 100px;
-top: 1130px;
+left: 60px;
+top: 1400px;
 }
 
 .box {
@@ -462,8 +627,8 @@ padding: 16px;
 position: absolute;
 width: 172px;
 height: 56px;
-left: 1240px;
-top: 1155px;
+left: 1125px;
+top: 1420px;
 cursor: pointer;
 
 /* Primary/100% */
@@ -477,8 +642,9 @@ border-style: none;
    position: absolute;
    width: 36px;
    height: 36px;
-   left: 147px;
-   top: 1022px;
+   left: 110px;
+   top: 1320px;
+   cursor: pointer;
 }
 
 .pBtn {

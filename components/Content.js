@@ -43,7 +43,11 @@ function Content() {
             </div>
             <div>
             <p className={styles.pLog}>NSFW</p>
-            <img src="/Vector2.svg" className={styles.togle} alt="toggle" />
+            <img 
+                src="/Vector2.svg"
+                className={styles.togle}
+                alt="toggle"
+            />
             <p className={styles.faQ}>Expicit content ?</p>
 
             <div className={styles.notice}>
