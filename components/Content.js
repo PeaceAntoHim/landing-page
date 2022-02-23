@@ -2,6 +2,7 @@ import styles from '../styles/Content.module.css';
 import SectionOne from '../components/SectionOne';
 
 function Content() {
+    
     return (
         <>
             <SectionOne />
@@ -44,7 +45,7 @@ function Content() {
             <div>
             <p className={styles.pLog}>NSFW</p>
             <img 
-                src="/Vector2.svg"
+                src=""
                 className={styles.togle}
                 alt="toggle"
             />
