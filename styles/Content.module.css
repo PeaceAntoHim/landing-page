@@ -29,13 +29,14 @@ color: #404040;
 position: absolute;
 width: 631px;
 height: 302px;
-left: 10px;
+left: -40px;
 top: 50px;
 
 border: 1px dashed #404040;
 box-sizing: border-box;
 border-radius: 10px;
 }
+
 .imgOne {    
 position: absolute;
 left: 255px;
@@ -52,7 +53,7 @@ padding: 0px;
 position: absolute;
 width: 631px;
 height: 82px;
-left: 781px;
+left: 740px;
 top: 848px;
 
 }
@@ -143,8 +144,8 @@ padding: 0px;
 position: absolute;
 width: 631px;
 height: 82px;
-left: 781px;
-top: 971px;
+left: 740px;
+top: 990px;
 }
 
 .inputURL {
@@ -192,8 +193,8 @@ padding: 0px;
 position: absolute;
 width: 631px;
 height: 82px;
-left: 781px;
-top: 1094px;
+left: 740px;
+top: 1115px;
 }
 
 .inputCategory {
@@ -241,7 +242,7 @@ padding: 0px;
 position: absolute;
 width: 1312px;
 height: 197px;
-left: 100px;
+left: 60px;
 top: 1217px;
 }
 
@@ -294,7 +295,7 @@ padding: 0px;
 position: absolute;
 width: 1312px;
 height: 82px;
-left: 100px;
+left: 60px;
 top: 1455px;
 
 }
@@ -356,7 +357,7 @@ padding: 0px;
 position: absolute;
 width: 1312px;
 height: 56px;
-left: 100px;
+left: 60px;
 top: 1595px;
 
 background: #FFFFFF;
@@ -380,7 +381,7 @@ margin: 8px 0px;
     position: absolute;
     width: 1312px;
     height: 82px;
-    left: 100px;
+    left: 60px;
     top: 1568px;
     margin-top: 15px;
     
@@ -434,7 +435,7 @@ padding: 0px;
 position: absolute;
 width: 1312px;
 height: 58px;
-left: 100px;
+left: 59px;
 top: 1659px;
 
 
@@ -489,7 +490,7 @@ margin-left: 48px;
     position: absolute;
     width: 1312px;
     height: 56px;
-    left: 100px;
+    left: 59px;
     top: 1716px;
     border-bottom: none;
     background: #FFFFFF;
@@ -544,7 +545,7 @@ padding: 0px;
 position: absolute;
 width: 1312px;
 height: 56px;
-left: 100px;
+left: 59px;
 top: 1772px;
 
 background: #FFFFFF;
@@ -601,7 +602,7 @@ padding: 0px;
 position: absolute;
 width: 1312px;
 height: 58px;
-left: 100px;
+left: 59px;
 top: 1828px;
 
 background: #FFFFFF;
@@ -651,7 +652,7 @@ margin-left: 1px;
     position: absolute;
 width: 37px;
 height: 18px;
-left: 100px;
+left: 60px;
 top: 1934px;
 
 font-family: Nunito;
@@ -669,7 +670,7 @@ color: #404040;
     position: absolute;
 width: 567px;
 height: 24px;
-left: 100px;
+left: 61px;
 top: 1963px;
 
 font-family: Nunito;
@@ -700,7 +701,7 @@ color: #404040;
 position: absolute;
 width: 938px;
 height: 61px;
-left: 100px;
+left: 61px;
 top: 2028px;
 }
 
@@ -734,7 +735,7 @@ padding: 16px;
 position: absolute;
 width: 172px;
 height: 56px;
-left: 1240px;
+left: 1150px;
 top: 2055px;
 cursor: pointer;
 
@@ -749,7 +750,7 @@ border-style: none;
     position: absolute;
     width: 36px;
     height: 36px;
-    left: 147px;
+    left: 107px;
     top: 1938px;
 }
 

@@ -10,7 +10,7 @@
        position: absolute;
        width: 631px;
        height: 328px;
-       left: 100px;
+       left: 50px;
        top:328px;
        cursor: pointer
    }
@@ -23,6 +23,7 @@
    line-height: 18px;
    
    color: #404040;
+   margin-left: 15px;
    }
    
    .img {

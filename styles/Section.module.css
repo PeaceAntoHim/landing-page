@@ -6,11 +6,12 @@ left: 100px;
 top: 298px;
 }
 
+
 .frameBanner {
 position: absolute;
 width: 1312px;
 height: 375px;
-left: 20px;
+left: -40px;
 top: 50px;
 cursor: pointer;
 
@@ -24,7 +25,7 @@ border-radius: 10px;
     position: absolute;
     width: 180px;
     height: 180px;
-    left: 564px;
+    left: 500px;
     top: 320px;
     background: #F4F4F4;
     border-radius: 244px;

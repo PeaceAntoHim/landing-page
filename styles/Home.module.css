@@ -3,6 +3,8 @@
   height: 2200px;
 }
 
+
+
 .main {
   min-height: 100vh;
   padding: 4rem 0;
@@ -71,7 +73,7 @@ cursor: pointer;
   position: absolute;
   width: 390px;
   height: 40px;
-  left: 561px;
+  left: 490px;
   top: 20px;
   
   background: #FFFFFF;
@@ -108,7 +110,7 @@ padding: 0px;
 position: absolute;
 width: 480px;
 height: 56px;
-left: 982px;
+left: 930px;
 top: 23px;
 }
 
@@ -221,7 +223,7 @@ margin: 7px 30px;
 position: absolute;
 width: 326px;
 height: 49px;
-left: 100px;
+left: 30px;
 top: 170px;
 
 font-family: Nunito;
@@ -238,7 +240,7 @@ color: #0D243C;
 position: absolute;
 width: 776px;
 height: 24px;
-left: 132px;
+left: 62px;
 top: 259px;
 font-family: Nunito;
 font-style: normal;
