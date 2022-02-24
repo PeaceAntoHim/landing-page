@@ -36,8 +36,15 @@ function SectionTwo() {
                 <label className={styles.p3}>Category</label>
                 <select className={styles.inputCategoryS}>
                     <option>-- Choose Category --</option>
-                    <option>Chinese Traditional</option>
-                    <option>Chinese Simplified</option>
+                    <option>Abstract</option>
+                    <option>Expressionism</option>
+                    <option>Cubism</option>
+                    <option>Realism</option>
+                    <option>Surealism</option>
+                    <option>Impressionism</option>
+                    <option>Hyperrealism</option>
+                    <option>Photography</option>
+                    <option>Digital</option>
                 </select>
             </div>
 
@@ -56,8 +63,10 @@ function SectionTwo() {
                 <label className={styles.p4}>License</label>
                 <select className={styles.inputLicense}>
                     <option>-- Style Licence --</option>
-                    <option>Chinese Traditional</option>
-                    <option>Chinese Simplified</option>
+                    <option>Private Use/Non-commercial</option>
+                    <option>Personal public display/Non-commercial explotion</option>
+                    <option>Public Display/Non-commercial explotion</option>
+                    <option>Repoduction/commercial explotion</option>
                 </select>
             </div>
 
@@ -65,8 +74,15 @@ function SectionTwo() {
                 <label className={styles.p5}>Category</label>
                 <select className={styles.inputCategory}>
                     <option>-- Choose Category --</option>
-                    <option>Chinese Traditional</option>
-                    <option>Chinese Simplified</option>
+                    <option>Abstract</option>
+                    <option>Expressionism</option>
+                    <option>Cubism</option>
+                    <option>Realism</option>
+                    <option>Surealism</option>
+                    <option>Impressionism</option>
+                    <option>Hyperrealism</option>
+                    <option>Photography</option>
+                    <option>Digital</option>
                 </select>
             </div>
 
@@ -74,8 +90,22 @@ function SectionTwo() {
                 <label className={styles.p6}>Styles</label>
                 <select className={styles.inputStyles}>
                     <option>-- Choose Styles --</option>
-                    <option>Chinese Traditional</option>
-                    <option>Chinese Simplified</option>
+                    <option>Modernism</option>
+                    <option>Neoclassicism</option>
+                    <option>Futurism</option>
+                    <option>Renaissance</option>
+                    <option>Romanticism</option>
+                    <option>Acient</option>
+                    <option>Pop Art</option>
+                    <option>Symbolism</option>
+                    <option>Pop Art</option>
+                    <option>Art Nouveu</option>
+                    <option>Folk</option>
+                    <option>Ethnic</option>
+                    <option>3D</option>
+                    <option>Pixel Art</option>
+                    <option>Generative</option>
+                    <option>Cartoon</option>
                 </select>
             </div>
 

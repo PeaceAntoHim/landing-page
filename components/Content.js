@@ -1,9 +1,9 @@
+import Toggle from './Toggle';
+import React, { useState } from 'react';
 import styles from '../styles/Content.module.css';
 import SectionOne from '../components/SectionOne';
-import Toggle from './Toggle';
-import { useState } from 'react';
 
-function Content() {
+const Content = () => {
 
     const [toggled, setToggled] = useState(false);
 
@@ -48,10 +48,12 @@ function Content() {
             </div>
             <div>
             <p className={styles.pLog}>NSFW</p>
-                <Toggle 
-                    onChange={(e) => setToggled(e.target.checked)}
-                    className={styles.togle}
+              <div>
+              <Toggle 
+                    onChange={(event) => setToggled(event.target.checked)}
                 />
+                <p>The switch is{toggled ? "on" : "off" }.</p>
+              </div>
             <p className={styles.faQ}>Expicit content ?</p>
 
             <div className={styles.notice}>

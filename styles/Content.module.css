@@ -747,12 +747,12 @@ border-radius: 8px;
 border-style: none;
 }
 
-.togle {
+/* .toggle {
     position: absolute;
     width: 36px;
     height: 36px;
-    left: 107px;
-    top: 1938px;
+    right: 640px;
+    top: 1565px;
 
     display: flex;
     cursor: pointer;
@@ -762,12 +762,20 @@ border-style: none;
     background-color: #F4BA00;
     position: relative;
     transition: background-color 0.2s;
-}
-.togle::before {
-    content: '';
-    position: absolute;
-    background: #fff;
-}
+
+    &:before {
+        content: "";
+        position: absolute;
+        top: 1565px;
+        right: 640px;
+        width: 16px;
+        height: 16px;
+        border-radius: 16px;
+        transition:0.2s;
+        background:#fff;
+        box-shadow: 0 2px 4px 
+    }
+} */
 
 .pBtn {
     flex: none;

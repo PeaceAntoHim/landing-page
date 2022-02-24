@@ -28,8 +28,15 @@ function SectionOne() {
                 <label className={styles.p3}>Category</label>
                 <select className={styles.inputCategory}>
                     <option>-- Choose Category --</option>
-                    <option>Chinese Traditional</option>
-                    <option>Chinese Simplified</option>
+                    <option>Abstract</option>
+                    <option>Expressionism</option>
+                    <option>Cubism</option>
+                    <option>Realism</option>
+                    <option>Surealism</option>
+                    <option>Impressionism</option>
+                    <option>Hyperrealism</option>
+                    <option>Photography</option>
+                    <option>Digital</option>
                 </select>
             </div>
       </>
