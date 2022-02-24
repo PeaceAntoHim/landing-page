@@ -1,8 +1,12 @@
 import styles from '../styles/Content.module.css';
 import SectionOne from '../components/SectionOne';
+import Toggle from './Toggle';
+import { useState } from 'react';
 
 function Content() {
-    
+
+    const [toggled, setToggled] = useState(false);
+
     return (
         <>
             <SectionOne />
@@ -44,11 +48,10 @@ function Content() {
             </div>
             <div>
             <p className={styles.pLog}>NSFW</p>
-            <img 
-                src=""
-                className={styles.togle}
-                alt="toggle"
-            />
+                <Toggle 
+                    onChange={(e) => setToggled(e.target.checked)}
+                    className={styles.togle}
+                />
             <p className={styles.faQ}>Expicit content ?</p>
 
             <div className={styles.notice}>

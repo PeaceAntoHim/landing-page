@@ -753,6 +753,20 @@ border-style: none;
     height: 36px;
     left: 107px;
     top: 1938px;
+
+    display: flex;
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    border-radius: 10px;
+    background-color: #F4BA00;
+    position: relative;
+    transition: background-color 0.2s;
+}
+.togle::before {
+    content: '';
+    position: absolute;
+    background: #fff;
 }
 
 .pBtn {
