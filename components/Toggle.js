@@ -7,14 +7,14 @@ position: absolute;
 
 const Input = styled.input`
     position: absolute;
-    right: 440px;
-top: 1747px;
+    right: 750px;
+    top: 1468px;
     
-    $:checked + span {
+    &:checked + span {
         background-color: #F4BA00;
 
-        $:before {
-            left: 38px;
+        &:before {
+            left: 22px;
         }
     }
 `;
@@ -25,8 +25,8 @@ height: 20px;
 width: 40px;
 border-radius: 100px;
 position: absolute;
-right: 440px;
-top: 1747px;
+right: 750px;
+top: 1468px;
 background-color: #404040;
 transition: background-color 0.2s;
 
