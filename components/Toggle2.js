@@ -8,7 +8,7 @@ position: absolute;
 const Input = styled.input`
     position: absolute;
     right: 750px;
-    top: 1468px;
+    top: 1968px;
     
     &:checked + span {
         background-color: #F4BA00;
@@ -25,8 +25,8 @@ height: 20px;
 width: 40px;
 border-radius: 100px;
 position: absolute;
-right: 446px;
-top: 1514px;
+right: 750px;
+top: 980px;
 background-color: #404040;
 transition: background-color 0.2s;
 

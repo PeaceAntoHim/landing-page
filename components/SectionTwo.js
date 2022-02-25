@@ -1,6 +1,11 @@
+import Toggle from './Toggle2';
+import React, { useState } from 'react';
 import styles from '../styles/Mining.module.css';
 
-function SectionTwo() {
+const SectionTwo = () => {
+
+    const [toggled, setToggled] = useState(false);
+
    return (
       <>
           <div className={styles.pictureTwo}>
@@ -111,7 +116,12 @@ function SectionTwo() {
 
         <div>
             <p className={styles.pLog}>NSFW</p>
-            <img src="/Vector2.svg" className={styles.togle} alt="toggle" />
+            <div>
+            <Toggle 
+                    onChange={(event) => setToggled(event.target.checked)}
+                />
+            <p>The switch is{toggled ? "on" : "off" }.</p>
+            </div>
             <p className={styles.faQ}>Expicit content ?</p>
 
             <div className={styles.notice}>
